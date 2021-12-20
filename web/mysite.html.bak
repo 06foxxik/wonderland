@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>добрый сайт, позитивный</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Book Antiqua, Helvetica, serif;
+    margin: 0;
+}
+
+.header {
+    padding: 80px;
+	width: 100%;
+    text-align: center;
+    background: #DEB887;
+    color: white;
+}
+
+.header h1 {
+    font-size: 240%;
+}
+
+.navbar {
+    overflow: hidden;
+	width: 100%;
+    background-color: #D2B48C;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #FFF8DC;
+    text-align: center;
+    padding: 14px 20px;
+	font-size: 180%;
+    text-decoration: none;
+}
+
+.navbar a.left {
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: #FFE4C4;
+    color: black;
+}
+
+.row {  
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	
+}
+
+.first {
+    width: 100%;
+	font-size: 24px;
+    background-color: #FFEBCD;
+    padding: 20px;
+	order: 2;
+}
+
+.second {   
+    width: 100%;
+	height:100%;
+	font-size: 24px;
+    background-color: #F5DEB3;
+    padding: 20px;
+	order: 3;
+}
+
+.third {
+    width: 100%;
+	height:100%;
+	font-size: 24px;
+    background-color: #FFE4C4;
+    padding: 20px;
+	order: 4;
+}
+.footer {
+    padding: 20px;
+    text-align: right;
+    background: #A0522D;
+	color: #FFEBCD;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Ѕамжур!!</h1>
+ 
+</div>
+
+<div class="navbar">
+  <a href="#01">01</a>
+  <a href="#02">02</a>
+  <a href="#03">03</a>
+  <a href="#04" class="left">04</a>
+</div>
+<div class="row">
+  <div class="first">
+      <a name="01"><h1>01</h1></a>
+	  
+	  <p align="right"><img src="images/cat4.jpg" width=50% align="left"><font face="Monotype Corsiva" >Ч ѕочему ты не пьешь больше чаю? Ч спросил «а€ц заботливо.<br>
+	  Ч „то значит Ђбольшеї? Ч обиделась јлиса. Ч я вообще ничего тут не пила!<br>
+	  Ч “ем более! Ч сказал Ўл€па. Ч ¬ыпить больше, чем ничего, Ч легко и просто. ¬от если бы ты выпила меньше, чем ничего, Ч это был бы фокус!</font></p>
+	  
+</div>
+  <div class="second">
+     <a name="02"><h1 align="right">02</h1></a>
+	 
+	 <p align="left"><img src="images/cat2.jpg" width=50% align="right"><font face="Monotype Corsiva" >Ч Ќичего не поделаешь, Ч возразил  от. Ч ¬се мы здесь не в своем уме Ч и ты, и €!<br>
+	 Ч ќткуда вы знаете, что € не в своем уме? Ч спросила јлиса.<br>
+	 Ч  онечно, не в своем, Ч ответил  от. Ч »наче как бы ты здесь оказалась?<br>
+	 ƒовод этот, показалс€ јлисе совсем не убедительным, но она не стала спорить, а только спросила:<br>
+	 Ц ј откуда вы знаете, что вы не в своем уме?<br>
+	 Ц Ќачнем с того, что пес в своем уме. —огласна?<br>
+	 Ц ƒопустим, Ц согласилась јлиса.<br>
+	 Ц ƒальше, Ц сказал  от. Ц ѕес ворчит, когда сердитс€, а когда доволен, вил€ет хвостом. Ќу, а € ворчу, когда € доволен, и вил€ю хвостом, когда сержусь. —ледовательно, € не в своем уме.<br>
+	 Ц ѕо-моему, вы не ворчите, а мурлыкаете, Ц возразила јлиса. Ц ¬о вс€ком случае, € это так называю.<br>
+	 Ц Ќазывай как хочешь, Ц ответил  от. Ц —уть от этого не мен€етс€.</font></p>
+	 
+  </div>
+  <div class="third">
+  <a name="03"><h1>03</h1></a>
+  
+  <p align="right"><img src="images/cat3.jpg" width=50% align="left"><font face="Monotype Corsiva" >Ч —кажите, пожалуйста, куда мне отсюда идти?<br>
+  Ч ј куда ты хочешь попасть? Ч ответил  от.<br>
+  Ч ћне все равноЕ Ч сказала јлиса.<br>
+  Ч “огда все равно, куда и идти, Ч заметил  от.<br>
+  Ч Е только бы попасть куда-нибудь, Ч по€снила јлиса.<br>
+  Ч  уда-нибудь ты об€зательно попадешь, Ч сказал  от. Ч Ќужно только достаточно долго идти.</font></p>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <a name="04"><h3> онтакты:</h3></a>
+  <p>ѕочта:<a href="mailto:foxxik73@mail.ru">foxxik73@mail.ru</a></p>
+  <a href="https://vk.com/foxxik73" target="_blank"><img src="images/vk.png" width=3%></a>
+  <a href="https://www.instagram.com/foxxik73/" target="_blank"><img src="images/insta.jpeg" width=4.3%></a>
+</div>
+
+</body>
+</html>
